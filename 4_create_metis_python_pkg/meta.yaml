@@ -1,0 +1,23 @@
+package:
+  name: tuto-metis-python
+  version: # TODO
+
+source:
+  fn: # TODO
+  url: # TODO
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - # TODO
+    - # TODO
+  run:
+    - # TODO
+    - # TODO
+
+about:
+  home: https://bitbucket.org/kw/metis-python
+  license: # TODO
+  summary: # TODO

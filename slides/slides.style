@@ -1,0 +1,44 @@
+pageSetup:
+    width: 15cm
+    height: 11.25cm
+    margin-top: 0cm
+    margin-bottom: 0cm
+    margin-left: 1cm
+    margin-right: 1cm
+    margin-gutter: 0cm
+    spacing-header: 2mm
+    spacing-footer: 5mm
+    firstTemplate: coverpage
+
+pageTemplates:
+    coverpage:
+        frames: []
+            [0%, 0%, 100%, 50%]
+        background: coverpage.pdf
+        showHeader: false
+        showFooter: true
+
+    full:
+        frames: []
+            [0%, 0%, 100%, 100%]
+        background: background.pdf
+
+    columns:
+        frames: []
+            [0%, 0%, 49%, 100%]
+            [51%, 0%, 49%, 100%]
+        background: background.pdf
+
+styles:
+    bluetext:
+      parent: bodytext
+      textColor: blue
+    greentext:
+      parent: bodytext
+      textColor: green
+    graytext:
+      parent: bodytext
+      textColor: gray
+    yellowtext:
+      parent: bodytext
+      textColor: yellow
